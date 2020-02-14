@@ -1,0 +1,169 @@
+/* 
+    Created on : 07.02.2020, 22:21:42
+    Author     : agentcho
+*/
+
+body{
+    width: 100%;
+    height: auto; 
+}
+section{
+    width: 100%; 
+   
+}
+
+.page-section{
+    padding: 15px; 
+}
+
+.page-header{
+    /*height: 4em;*/ 
+    background: #fff;
+}
+
+
+
+.page-description{
+    background:#fff; 
+    padding: 50px; 
+    /*height:100vh;*/ 
+     font-family: Trebuchet MS, Times, Serif;
+}
+
+.page-example{
+    padding: 50px; 
+    /*height:100vh;*/ 
+}
+
+.page-feedback{
+    padding: 50px; 
+    /*height:100vh;*/ 
+}
+
+.page-registration{
+    padding: 20px 30px; 
+    background-image: url('../images/7.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.top-slider-image{
+    /*width:100%;*/ 
+   
+}
+
+.slider-image-wrapper{
+/*    height: 10em;
+    overflow: hidden; */
+
+}
+
+.top-slider-wrapper{
+    width:100%; 
+    padding: 0;
+    margin: auto;
+    /*height: 100vh;*/ 
+}
+
+.slick-dots{
+    bottom: 10px; 
+}
+
+.mobile-menu{
+    display:none; 
+}
+
+.robot{
+    display: none;
+}
+
+.registration-form{
+    padding: 50px;
+    border: 3px solid #fff;
+    /*border-radius: 12px;*/
+}
+
+.registration-form-input-submit{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    /*border-radius: 12px;*/
+    font-family: Trebuchet MS, Times, Serif;
+    margin-top:10px;
+}
+
+.registration-form-input-textarea{
+    overflow: auto;
+    resize: vertical;
+    width: 100%;
+    border: 2px solid #fff;
+    font-size: 18px;
+    background: #efefef;
+    opacity: 0.6;
+    /*border-radius: 12px;*/
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Trebuchet MS, Times, Serif;
+    color:#998b95;
+}
+
+.registration-form-input-text{
+    margin-top: 10px;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+    background: #efefef;
+    opacity: 0.6;
+    width: 100%;
+    padding: 10px 15px;
+    font-family: Trebuchet MS, Times, Serif;
+}
+
+.registration-form-title{
+    font-size:24px; 
+    font-family: Trebuchet MS, Times, Serif;
+    text-align: center; 
+    color:#fff;
+}
+
+.registration-form-input-agreement{
+    color:#fff;
+    font-family: Trebuchet MS, Times, Serif;
+}
+
+.footer{
+    position:absolute; 
+    bottom:0; 
+    left:0; 
+    right:0; 
+    height: 120px; 
+    background: #ff8c69; 
+}
+
+.login-form-submit{
+    background: #ff8c69; 
+    color: #ffffff;
+    font-size: 18px;
+    
+}
+
+.article-title{
+    font-size: 24px; 
+    line-height: 30px; 
+    font-weight: 600; 
+}
+
+@media (max-width: 480px){
+    .mobile-menu{
+        display:flex; 
+    }
+    .desktop-menu{
+        display: none;
+    }
+}
+
