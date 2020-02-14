@@ -1,0 +1,20 @@
+{
+  "name": "project.test",
+  "version": "1.0.0",
+  "description": "simple mvc project",
+  "main": "index.php?route=main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "simple",
+    "simple",
+    "mvc",
+    "test"
+  ],
+  "author": "agentcho",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
